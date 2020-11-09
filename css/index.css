@@ -198,3 +198,26 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page */
+
+.container.about-page {
+    margin: 2%;
+
+}
+
+.container.body1 {
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-container-about
+{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.end {
+    margin: 2%;
+}
