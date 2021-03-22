@@ -206,6 +206,8 @@ footer nav a {
 
 /* About Page */
 
+/* Top Section */
+
 .top-about {
     border-bottom: 1px dashed black;
 }
@@ -213,6 +215,8 @@ footer nav a {
 .top-about .about-text {
     margin: 0% 2% 2% 2%;
 }
+
+/* Middle Section */
 
 .middle-container {
     display: flex;
@@ -225,14 +229,73 @@ footer nav a {
 
 .middle-container .strategy {
     border-bottom: 1px dashed black;
-    margin: 3%;
- 
+    padding-bottom: 5%;
+    margin: 0% 2% 2% 2%;
+ }
 
-}
 
 .middle-container .how-we-work {
     border-bottom: 1px dashed black;
-    margin: 3%;   
-   
+    padding-bottom: 5%;
+    margin: 0% 2% 2% 2%;   
+    
 }
 
+.middle-container a {
+    text-decoration: none;
+    color: black;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.middle-container p {
+    padding-bottom: 25px;
+}
+
+/* Bottom Section */
+
+.bottom-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: auto;
+}
+
+
+
+.bottom-container .places {
+    border-bottom: 1px dashed black;
+    padding-bottom: 5%;
+    margin: 0% 2% 2% 2%;
+ }
+
+
+.bottom-container .collaboration {
+    border-bottom: 1px dashed black;
+    padding-bottom: 5%;
+    margin: 0% 2% 2% 2%;   
+    
+}
+
+.bottom-container a {
+    text-decoration: none;
+    color: black;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+.bottom-container p {
+    padding-bottom: 25px;
+}
+
+/* End Section */
+
+.end-container {
+
+    margin: 5% 2% 5% 2%;
+
+}
